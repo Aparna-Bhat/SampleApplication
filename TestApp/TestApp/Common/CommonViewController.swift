@@ -16,9 +16,8 @@ public class CommonViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    public static  func instanceFromNib() -> TestViewController {
-//        let storyboardBundle = Bundle(for: TestViewController.self)
-        let vc:TestViewController = TestViewController(nibName: "CommonViewController", bundle: nil)
+    public static  func instanceFromNib() -> CommonViewController {
+        let vc:CommonViewController = CommonViewController(nibName: "CommonViewController", bundle: nil)
         return vc
     }
     

@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     
     @IBAction func showImage(){
         print("Load image")
+        let vc = CommonViewController.instanceFromNib()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
 
