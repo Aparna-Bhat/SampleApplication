@@ -17,6 +17,7 @@ public class CommonViewController: UIViewController {
     }
     
     public static  func instanceFromNib() -> CommonViewController {
+        print("Load vc from xib again")
         let vc:CommonViewController = CommonViewController(nibName: "CommonViewController", bundle: nil)
         return vc
     }
@@ -24,14 +25,10 @@ public class CommonViewController: UIViewController {
     public func loadImages(){
         self.loadViewIfNeeded()
         self.fillImage()
-        self.logMessage()
     }
     
     private func fillImage(){
         imageview.image = UIImage.init(named: "Image1")
     }
     
-    private func logMessage(){
-        print("Test 123")
-    }
 }
