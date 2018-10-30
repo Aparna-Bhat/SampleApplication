@@ -17,7 +17,7 @@ public class CommonViewController: UIViewController {
     }
     
     public static  func instanceFromNib() -> CommonViewController {
-        print("Load vc from xib again")
+        print("Load vc from xib again one more time")
         let vc:CommonViewController = CommonViewController(nibName: "CommonViewController", bundle: nil)
         return vc
     }
