@@ -24,7 +24,6 @@ public class CommonViewController: UIViewController {
     public func loadImages(){
         self.loadViewIfNeeded()
         self.fillImage()
-        self.logMessage()
     }
     
     private func fillImage(){
