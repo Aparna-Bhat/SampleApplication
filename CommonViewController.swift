@@ -31,7 +31,4 @@ public class CommonViewController: UIViewController {
         imageview.image = UIImage.init(named: "Image1")
     }
     
-    private func logMessage(){
-        print("Test 123")
-    }
 }
