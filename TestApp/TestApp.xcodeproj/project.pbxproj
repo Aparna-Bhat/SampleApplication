@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		489D12082189D9F5005AA609 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D12062189D9F5005AA609 /* AccountViewController.swift */; };
+		489D12092189D9F5005AA609 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489D12072189D9F5005AA609 /* AccountViewController.xib */; };
 		B955A00E21885F5000357B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955A00D21885F5000357B19 /* AppDelegate.swift */; };
 		B955A01021885F5000357B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955A00F21885F5000357B19 /* ViewController.swift */; };
 		B955A01321885F5000357B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B955A01121885F5000357B19 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		489D12062189D9F5005AA609 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		489D12072189D9F5005AA609 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
 		B955A00A21885F5000357B19 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B955A00D21885F5000357B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B955A00F21885F5000357B19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 			children = (
 				B955A0202188740800357B19 /* CommonViewController.xib */,
 				B955A0212188740800357B19 /* CommonViewController.swift */,
+				489D12062189D9F5005AA609 /* AccountViewController.swift */,
+				489D12072189D9F5005AA609 /* AccountViewController.xib */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 				B955A0222188740800357B19 /* CommonViewController.xib in Resources */,
 				B955A01521885F5100357B19 /* Assets.xcassets in Resources */,
 				B955A01321885F5000357B19 /* Main.storyboard in Resources */,
+				489D12092189D9F5005AA609 /* AccountViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +159,7 @@
 			files = (
 				B955A0232188740800357B19 /* CommonViewController.swift in Sources */,
 				B955A01021885F5000357B19 /* ViewController.swift in Sources */,
+				489D12082189D9F5005AA609 /* AccountViewController.swift in Sources */,
 				B955A00E21885F5000357B19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
