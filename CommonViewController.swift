@@ -17,13 +17,11 @@ public class CommonViewController: UIViewController {
     }
     
     public static  func instanceFromNib() -> CommonViewController {
-        //Test comment Aparna: New msg
         let vc:CommonViewController = CommonViewController(nibName: "CommonViewController", bundle: nil)
         return vc
     }
     
     public func loadImages(){
-        //Test commnent Aparna : 2
         self.loadViewIfNeeded()
         self.fillImage()
     }
