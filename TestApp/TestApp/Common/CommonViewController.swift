@@ -17,6 +17,7 @@ public class CommonViewController: UIViewController {
     }
     
     public static  func instanceFromNib() -> CommonViewController {
+        //Comment Aparna
         let vc:CommonViewController = CommonViewController(nibName: "CommonViewController", bundle: nil)
         return vc
     }
