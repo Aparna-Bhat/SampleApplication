@@ -27,7 +27,6 @@ public class CommonViewController: UIViewController {
     }
     
     private func fillImage(){
-        //Added new message:123
         imageview.image = UIImage.init(named: "Image1")
     }
     
